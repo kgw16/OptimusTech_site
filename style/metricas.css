@@ -1,0 +1,33 @@
+.metricas{
+    margin: 0 1em 5vw;
+}
+
+.metricas__lista{
+    display: flex;
+}
+
+.metricas__lista-item{
+    margin: 0 1em;
+    flex-basis: 20vw;
+}
+
+.metricas__numero{
+    font-size: 60px;
+    color: var(--vermelho-vinho);
+    font-weight: 600;
+    margin: .2em 0;
+}
+
+.metricas__subtitulo{
+    font-size: 18px;
+    color: var(--preto-claro);
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.metricas__texto{
+    font-size: 16px;
+    color: var(--cinza-claro);
+    font-weight: 400;
+    line-height: 24px;
+}

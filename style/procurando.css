@@ -1,0 +1,34 @@
+.procurando{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.procurando__titulo{
+    background-color: var(--bg-vermelho);
+    border-radius: 16px;
+    color: var(--vermelho-vinho);
+    font-size: 14px;
+    font-weight: 500;
+    margin: 1em 0 1em 0;
+}
+
+.procurando__subtitulo{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto-claro);
+    margin: 1em 0 1em 0;
+}
+
+.procurando__texto{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+    margin: 1em 0 5em 0;
+}
+
+.procurando__imagem{
+    width: 1216px;
+    height: 400px;
+    margin-bottom: 2em;
+}

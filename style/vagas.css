@@ -1,0 +1,40 @@
+.vagas{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20em;
+    padding-bottom: 3em;
+}
+
+.vagas__abertas{
+    margin-left: 1.7em;
+    margin-bottom: 2.5em;
+}
+
+.vagas__titulo{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--preto-claro);
+    margin: 2em 0 2.3em 0 ;
+}
+
+.vagas__nome{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto-claro);
+    margin-bottom: 1.9em;
+}
+
+.vagas__fulltime , .vagas__salario{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-claro);
+}
+
+.vagas__fulltime{
+    margin-right: 1.5em;
+}
+
+
+
+
+
